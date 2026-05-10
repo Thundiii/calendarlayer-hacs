@@ -1,6 +1,6 @@
 {
-  "domain": "calendarlayer",
-  "name": "CalendarLayer",
+  "domain": "calendarlayer-hacs",
+  "name": "CalendarLayer HACS",
   "codeowners": [],
   "dependencies": [],
   "documentation": "https://calendarlayer.de",
