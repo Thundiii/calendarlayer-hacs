@@ -1,0 +1,9 @@
+{
+  "domain": "calendarlayer",
+  "name": "CalendarLayer",
+  "version": "0.0.1",
+  "config_flow": true,
+  "documentation": "https://calendarlayer.de",
+  "requirements": [],
+  "codeowners": []
+}
