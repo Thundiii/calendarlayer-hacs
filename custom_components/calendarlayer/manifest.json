@@ -1,11 +1,13 @@
 {
-  "domain": "calendarlayer-hacs",
-  "name": "CalendarLayer HACS",
-  "codeowners": [],
+  "domain": "calendarlayer",
+  "name": "CalendarLayer",
+  "codeowners": ["@thundiii"],
   "dependencies": [],
   "documentation": "https://calendarlayer.de",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/thundiii/calendarlayer-hacs/issues",
   "requirements": [],
-  "config_flow": true
+  "config_flow": true,
+  "version": "0.1.0"
 }

@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "CalendarLayer einrichten",
+        "description": "Gib deinen CalendarLayer API-Token ein. Home Assistant prueft den Token, bevor der Integrationseintrag angelegt wird.",
+        "data": {
+          "api_key": "API-Token"
+        }
+      },
+      "reconfigure": {
+        "title": "CalendarLayer neu konfigurieren",
+        "description": "Aktualisiere den CalendarLayer API-Token.",
+        "data": {
+          "api_key": "API-Token"
+        }
+      },
+      "reauth_confirm": {
+        "title": "CalendarLayer erneut authentifizieren",
+        "description": "Der aktuelle CalendarLayer API-Token ist nicht mehr gueltig. Gib einen gueltigen Token ein, um fortzufahren.",
+        "data": {
+          "api_key": "API-Token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "CalendarLayer konnte nicht erreicht werden. Pruefe den Token und versuche es erneut.",
+      "invalid_auth": "Der CalendarLayer API-Token ist ungueltig.",
+      "unknown": "Unerwarteter Fehler"
+    },
+    "abort": {
+      "already_configured": "CalendarLayer ist bereits eingerichtet"
+    }
+  }
+}
